@@ -1,2 +1,2 @@
 # reposoitoryforlab1
-web technology first lab
+web technology wowww
