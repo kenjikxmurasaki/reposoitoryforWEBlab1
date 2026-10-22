@@ -201,7 +201,6 @@ class Parallelogram extends Rectangle {
     static help() {
         console.log("Parallelogram: a quadrilateral with opposite sides parallel.");
         console.log("- Паралелограм: чотирикутник, у якого протилежні сторони паралельні.");
-}
     }
 
     length() {
