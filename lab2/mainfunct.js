@@ -172,7 +172,7 @@ class Rhombus extends Square {
 
     static help() {
         console.log("Rhombus: a quadrilateral with four equal sides.");
-        console.log("- Ромб: чотирикутник із чотирма рівними сторонами.");
+        console.log("Ромб: чотирикутник із чотирма рівними сторонами.");
     }
 
     length() {
