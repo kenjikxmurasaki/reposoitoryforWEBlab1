@@ -91,6 +91,7 @@ class Square {
 
     static help() {
         console.log("Square: a quadrilateral with four equal sides and four right angles.");
+        console.log("- Квадрат: чотирикутник із чотирма рівними сторонами та прямими кутами.");
     }
 
     length() {
@@ -117,6 +118,7 @@ class Rectangle extends Square {
 
     static help() {
         console.log("Rectangle: a quadrilateral with four right angles.");
+        console.log("- Прямокутник: чотирикутник, у якого всі кути прямі.");
     }
 
     length() {
@@ -169,7 +171,8 @@ class Rhombus extends Square {
     }
 
     static help() {
-        console.log("Rhombus: a quadrilateral with four equal sides.");
+        console.log("Rhombus: a quadrilateral with four equal sides.");\
+        console.log("- Ромб: чотирикутник із чотирма рівними сторонами.");
     }
 
     length() {
@@ -197,6 +200,8 @@ class Parallelogram extends Rectangle {
 
     static help() {
         console.log("Parallelogram: a quadrilateral with opposite sides parallel.");
+        console.log("- Паралелограм: чотирикутник, у якого протилежні сторони паралельні.");
+}
     }
 
     length() {
