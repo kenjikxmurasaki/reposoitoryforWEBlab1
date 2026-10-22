@@ -1,3 +1,4 @@
+// ostapiva IST-41
 // 1.2.3–1.2.10 - ES6 NE MOJNA
 
 let car1 = new Object();
