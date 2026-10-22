@@ -173,7 +173,7 @@ class Rhombus extends Square {
 
     static help() {
         console.log("Rhombus: a quadrilateral with four equal sides.");
-        console.log("Ромб: чотирикутник із чотирма рівними сторонами.");
+        console.log("- Ромб: чотирикутник із чотирма рівними сторонами.");
     }
 
     length() {
@@ -273,7 +273,7 @@ console.log(piDividedByTwo());
 function Painter(color) {
     return function(object) {
         if (object.type === undefined) {
-            console.log(color + " No 'type' property occurred!");
+            console.log("No 'type' property occurred!");
         } else {
             console.log(color + " " + object.type);
         }
